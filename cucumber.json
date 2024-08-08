@@ -1,0 +1,15 @@
+{
+  "default": {
+    "formatOptions":{
+        "snippetInterface":"async-await"
+    },
+    "paths": ["src/test/features/login-scenarios-outlineDT.feature"],
+    "dryRun": false,
+    "require": [
+        "src/test/stepsDefinitions/*.ts"
+    ],
+    "requireModule": [
+        "ts-node/register"
+    ]
+  }
+}
